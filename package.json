@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "express-react-views": "^0.10.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   }
 }
