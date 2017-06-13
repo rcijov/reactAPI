@@ -1,7 +1,12 @@
-var React = require('react');
+import  React from 'react';
 
-var MasterLayout = React.createClass({
-	render: function() {
+class MasterLayout extends React.Component{
+	
+	constructor(props){
+		super(props);
+	}
+	
+	render() {
 		return(
 		<html lang="en">
 			<head>
@@ -13,8 +18,8 @@ var MasterLayout = React.createClass({
 				<div>test</div>
 			</body>
 		</html>
-		)
+		);
 	}
-});
+}
 
-module.exports = MasterLayout;
+export default  MasterLayout;

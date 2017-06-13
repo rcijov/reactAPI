@@ -1,8 +1,14 @@
-var React = require('react');
-var DefaultLayout = require('./layout/master');
+import React from 'react';
+import DefaultLayout from './layout/master';
 
-var IndexComponent = React.createClass({
-	render: function(){
+class ViewsIndex extends React.Component {
+	
+	constructor(props){
+		super(props);
+	}
+	
+	
+	render(){
 		return(
 			<DefaultLayout name={this.props.name}>
 				<div>
@@ -11,6 +17,6 @@ var IndexComponent = React.createClass({
 			</DefaultLayout>
 		)
 	}
-});
+}
 
-module.exports = IndexComponent;
+export default ViewsIndex;
